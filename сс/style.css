@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2? Family= JetBrains+Mono:wght@700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:430px) {
+    header{
+        width: 430px !important;
+        height: 80px !important;
+    }
+    main{
+        width: 4px !important;
+        height: 1220px !important;
+    }
+    .header_container div{
+        max-width: 430px !important;
+    }
+    .header_container img{
+        width: 80px;
+        height: 80px;
+    }
+    .header_container div a{
+        font-size: 12px !important;
+    }
+    main{
+        width: 430px !important;
+    }
+    .section_EclipSun{
+        width: 430px !important;
+        height: 450px !important;
+    }
+    .section_EclipSun h1{
+        font-size: 30px !important;
+    }
+    .Eclip_photo_container{
+        height: 200px !important;
+        width: 300px !important;
+    }
+    .Eclip_photo_container img{
+        width: 120px !important;
+        height: 65px !important;
+        margin: 0px !important;
+    }
+    .section_about_us img{
+        width: 90px !important;
+        height: 90px !important;
+        margin-top: 100px !important;
+    }
+    .section_about_us{
+        width: 430px !important;
+        height: 320px !important;
+    }
+    .section_about_us div p{
+        font-size: 15px !important;
+        width: 170px !important;
+    }
+    .section_about_us div h2{
+        font-size: 30px !important;
+        width: 170px !important;
+    }
+  .Reviews div h3{
+        font-size: 30px !important;
+    }
+    .Reviews div img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .Reviews div p{
+        font-size: 12px !important;
+        width: 100px !important;
+        text-align: center !important;
+    }
+    .footer{
+        width: 430px !important;
+        height: 50px !important;
+    }
+    .footer div{
+        margin: 10px !important;
+    }
+    .footer div p{
+        font-size: 14px !important;
+    }
+    .footer div img{
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #fab37f;
+}
+main{
+    width: 100%;
+    height: 1940px;
+    background-color: #181825;
+}
+.header_container{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_container div{
+    width: 690px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_container div a{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family:'JetBrains Mono', monospace;
+}
+.section_EclipSun{
+    width: 100%;
+    height: 810px;
+    background-color: #181825;;
+}
+.section_EclipSun div h1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+span{
+    color: #fab37f;
+}
+.Eclip_photo_container{
+    width: 75%;
+    height: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Eclip_photo_container img{
+    width: 400px;
+    height: 230px;
+}
+.section_about_us{
+    width: 100%;
+    height: 419px;
+    border-top: 4px #fab37f solid;
+    border-bottom: solid 4px #fab37f;
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    font-family:'JetBrains Mono', monospace;
+}
+.section_about_us p{
+    color: white;
+    width: 500px;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.Reviews{
+    width: 100%;
+    height: 711;
+}
+
+.Reviews div h3{
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+.Reviews_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text_raw{
+    text-align: center;
+    color: white;
+    width: 180px;
+    font-family:'JetBrains Mono', monospace;
+}
+.Name{
+    margin-top: 10px;
+    line-height: 30px;
+    font-family:'JetBrains Mono', monospace;
+    color: #fab37f;
+}
+
+.Reviews_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    margin-top: 70px;
+    width: 100%;
+    background: #FAB387; 
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_part{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_paragraph{
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 64px; 
+    font-style: normal;
+    line-height: normal; 
+    font-family:'JetBrains Mono', monospace;
+    display: flex; 
+    color: #181825;
+    text-align: center; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.footer_text{
+    color: #121225;
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
